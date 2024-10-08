@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd8fee3-3ad0-4f24-9af9-53d3f62be904" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/API-biblioteca.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/depends/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/libros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/usuarios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/databases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/databases/biblioteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/models/biblioteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/schemas/biblioteca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="ebd8fee3-3ad0-4f24-9af9-53d3f62be904" name="Changes" comment="CRUD autor">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/databases/biblioteca.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/databases/biblioteca.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bit-armando"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bit-armando/api-biblioteca.git",
+    "accountId": "ed45c1a2-7b8e-41e3-a9a3-4cd2681d002e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -72,6 +64,7 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "postgresql",
       "sqlserver"
     ]
   }
@@ -115,8 +108,17 @@
       <option name="presentableId" value="Default" />
       <updated>1728341334002</updated>
       <workItem from="1728341340465" duration="8685000" />
-      <workItem from="1728354550586" duration="8856000" />
+      <workItem from="1728354550586" duration="9837000" />
     </task>
+    <task id="LOCAL-00001" summary="CRUD autor">
+      <option name="closed" value="true" />
+      <created>1728366189899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728366189899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +134,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD autor" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD autor" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_biblioteca$API_biblioteca.coverage" NAME="API-biblioteca Coverage Results" MODIFIED="1728359052355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
